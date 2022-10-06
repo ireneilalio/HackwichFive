@@ -30,6 +30,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4B7-i9-WkP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLf-Je-qoP">
                                 <rect key="frame" x="124" y="299" width="156" height="29"/>
@@ -44,6 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="YLf-Je-qoP" id="Zij-b0-LkV"/>
+                        <outlet property="buttonLabel" destination="8K6-1q-pI1" id="cwp-hf-gPS"/>
                         <outlet property="topLabel" destination="iQc-cw-tyT" id="2we-e1-6aX"/>
                     </connections>
                 </viewController>
